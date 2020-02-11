@@ -1,0 +1,13 @@
+.nav-wrapper{
+    opacity: 0.8;
+}
+.bgimage{
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.bg{
+    width: 100%;
+    position: fixed;
+    background-color: khaki;
+}
