@@ -1,38 +1,182 @@
 <html>
     <head>
-        <title></title>
+        <title>Monit's Portfolio Site</title>
         <link rel="stylesheet" href="style.css">
+        <!-- materialize css -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <!-- googlefontlib -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- font awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     </head>
     <body>
-        <!-- Navbar Start -->
-        <nav>
-            <div class="nav-wrapper light-blue accent-3">
-                <ul class="right hide-on-med-and-down">
+        <!-- header  -->
+        <header>
+            <!-- navbar -->
+                <nav class="nav-wrapper light-blue accent-3">
+                    <a href="#" class="sidenav-trigger" data-target="mobile-links">
+                        <i class="material-icons">menu</i>
+                    </a>
+                    <ul class=" right hide-on-med-and-down " >
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Interships</a></li>
+                        <li><a href="#">Projects</a></li>
+                        <li><a href="#" style="margin-right: 40px;">About</a></li>
+                    </ul>
+                </nav>
+            <!-- sidenav -->
+                <ul class="sidenav" id="mobile-links">
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">About Me</a></li>
+                    <li><a href="#">Interships</a></li>
                     <li><a href="#">Projects</a></li>
-                    <li><a href="#">Internships</a></li>
-                    <li><a href="#">Resume</a></li>
+                    <li><a href="#">About</a></li>
                 </ul>
-            </div>
-        </nav>
-        <!-- Navbar End -->
-
-        <!-- Main Body Start -->
+        </header>
+        <!-- header end  -->
+        
+        <!-- main body  -->
+        <main>
+            <section class="section container" style="width: 75%;">
+                <div class="row">
+                    <div class="col s12 l4">
+                        <img src="images/incave.jpg" class="responsive-img z-depth-5" alt="" >
+                    </div>
+                    <div class="col s12 l6">
+                        <h2 class="indigo-text text-darken-4">Domo</h2>    
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi fugiat maxime consectetur commodi, fuga numquam, deleniti quae excepturi blanditiis alias iure eum dolore aperiam neque adipisci, ipsa officiis? Ratione?</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi fugiat maxime consectetur commodi, fuga numquam, deleniti quae excepturi blanditiis alias iure eum dolore aperiam neque adipisci, ipsa officiis? Ratione?</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi fugiat maxime consectetur commodi, fuga numquam, deleniti quae excepturi blanditiis alias iure eum dolore aperiam neque adipisci, ipsa officiis? Ratione?</p>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi fugiat maxime consectetur commodi, fuga numquam, deleniti quae excepturi blanditiis alias iure eum dolore aperiam neque adipisci, ipsa officiis? Ratione?</p>                       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi fugiat maxime consectetur commodi, fuga numquam, deleniti quae excepturi blanditiis alias iure eum dolore aperiam neque adipisci, ipsa officiis? Ratione?</p>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- parallax -->
             <div class="parallax-container">
-                <div class="parallax"><img src="i1.jpg" style="transform: translate3d(-50%, 372.778px, 0px); opacity: 1;"></div>
+                <div class="parallax">
+                    <img src="images/beach.jpg" alt="Beach-pic" class="responsive-img">
+                </div>
             </div>
-            <h3>THIS IS A PARALLAX</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, possimus?</p>
-            <div class="parallax-container">
-                <div class="parallax"><img src="i2.jpg" style="transform: translate3d(-50%, 372.778px, 0px); opacity: 1;"></div>
-            </div>
-        <!-- Main Body End --> 
+            <!-- cards  -->
+            <div class="row">
+                <div class="col s12 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/Project.jpg" alt="" >
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">Projects</span>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, cumque aspernatur dolorem a obcaecati et architecto qui consequatur est eaque voluptatum perspiciatis quasi, perferendis ducimus laudantium! Iusto, doloribus. Ea, neque?</p>
+                        </div>
+                        <div class="card-action right-align">
+                            <a href="#" class="">More Details</a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="col s12 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/Intership.jpg" alt="" >
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">Internships</span>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, cumque aspernatur dolorem a obcaecati et architecto qui consequatur est eaque voluptatum perspiciatis quasi, perferendis ducimus laudantium! Iusto, doloribus. Ea, neque?</p>
+                        </div>
+                        <div class="card-action right-align">
+                            <a href="#" class="">More Details</a>
+                        </div>
+                    </div>
+                </div>
 
+                <div class="col s12 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/About Me.png" alt="" >
+                        </div>
+                        <div class="card-content">
+                            <span class="card-title">About Me</span>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, cumque aspernatur dolorem a obcaecati et architecto qui consequatur est eaque voluptatum perspiciatis quasi, perferendis ducimus laudantium! Iusto, doloribus. Ea, neque?</p>
+                        </div>
+                        <div class="card-action right-align">
+                            <a href="#" class="">More Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <section class="container section">
+                <div class="row">
+                    <div class="col s12 l4 ">
+                        <h3 class="indigo-text text-darken-4">About Me!</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At porro est non dolorum. Porro repudiandae excepturi sunt asperiores molestias nobis quisquam itaque sint. Aspernatur quae nulla tenetur at quaerat facere?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda quae qui veniam fuga, placeat quibusdam facilis ullam voluptatibus harum modi numquam iste possimus quod dicta voluptatum explicabo? Vitae, labore ipsam?</p>
+                    </div>
+                    <div class="col s12 l6 offset-l2">
+                        <ul class="tabs">
+                            <li class="tab col s6">
+                                <a href="#tab1" class="indigo-text text-darken-4">photos</a>
+                            </li>
+                            <li class="tab col s6">
+                                <a href="#tab2" class="indigo-text text-darken-4">chotos</a>
+                            </li>
+                        </ul>
+                        <div class="col s12" id="tab1">
+                            <p class="flow-text indigo-text text-darken-4">PHOTOS</p>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem eum, quos dolorem recusandae unde et obcaecati ratione atque id praesentium nostrum non, commodi illo asperiores necessitatibus, at officia! Ratione, voluptatibus!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ad, corporis nostrum nobis doloremque ducimus! Nihil, ipsum voluptas cumque inventore pariatur temporibus? Excepturi officia praesentium corrupti vero accusantium laboriosam vitae.</p>
+                        </div>
+                        <div class="col s12" id="tab2">
+                            <p class="flow-text indigo-text text-darken-4">CHOTOS</p>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem eum, quos dolorem recusandae unde et obcaecati ratione atque id praesentium nostrum non, commodi illo asperiores necessitatibus, at officia! Ratione, voluptatibus!</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ad, corporis nostrum nobis doloremque ducimus! Nihil, ipsum voluptas cumque inventore pariatur temporibus? Excepturi officia praesentium corrupti vero accusantium laboriosam vitae.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- parallax-2 -->
+            <div class="parallax-container">
+                <div class="parallax">
+                    <img src="images/fort.jpg" alt="Fort-pic" class="responsive-img">
+                </div>
+            </div>
+        </main>
+        <!-- <section class="container section" id="photos">
+                <div class="row">
+                    <div class="col s12 l4">
+                        <img src="images/incave.jpg" alt="" class="responsive-img" style="height: 200px; width: 200px;">
+                    </div>
+                    <div class="col s12 l6">
+                        <h2 class="indigo-text text-darken">Image 1</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam est voluptatibus excepturi repudiandae similique natus ducimus consequatur rem, vitae tenetur ratione sit. Adipisci placeat vero ipsam, quaerat totam reiciendis modi?</p>
+                    </div>
+                    <div class="col s12 l4">
+                        <img src="images/candid.jpg" alt="" class="responsive-img" style="height: 200px; width: 200px;">
+                    </div>
+                    <div class="col s12 l6">
+                        <h2 class="indigo-text text-darken">Image 2</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam est voluptatibus excepturi repudiandae similique natus ducimus consequatur rem, vitae tenetur ratione sit. Adipisci placeat vero ipsam, quaerat totam reiciendis modi?</p>
+                    </div>
+                    <div class="col s12 l4">
+                        <img src="images/mun.jpg" alt="" class="responsive-img" style="height: 200px; width: 200px;">
+                    </div>
+                    <div class="col s12 l6">
+                        <h2 class="indigo-text text-darken">Image 3</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam est voluptatibus excepturi repudiandae similique natus ducimus consequatur rem, vitae tenetur ratione sit. Adipisci placeat vero ipsam, quaerat totam reiciendis modi?</p>
+                    </div>
+                </div>
+            </section> -->
+        <!-- main body end -->
+
+
+        <!-- scripts -->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" >
-        $(document).ready(function(){$('.parallax').parallax();});
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" ></script>
+        <script>
+            $(document).ready(function(){
+                $('.sidenav').sidenav();
+                $('.parallax').parallax();
+                $('.tabs').tabs();
+            })
         </script>
     </body>
 </html>
