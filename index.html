@@ -13,15 +13,18 @@
         <!-- header  -->
         <header>
             <!-- navbar -->
-                <nav class="nav-wrapper light-blue accent-3">
+            <div class="navbar-fixed">
+                <nav class="nav-wrapper light-blue">
                     <a href="#" class="sidenav-trigger" data-target="mobile-links">
                         <i class="material-icons">menu</i>
                     </a>
                     <ul class=" right hide-on-med-and-down " >
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Interships</a></li>
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">About</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#card">Projects</a></li>
+                        <li><a href="#card">Interships</a></li>
+                        <li><a href="#card">Resume</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact Me</a></li>
                         <li><a href="#" class="btn-floating btn-small light-blue darken-4 tooltipped" data-tooltip="Instagram">
                             <i class="fab fa-instagram"></i>
                         </a></li>
@@ -36,6 +39,7 @@
                         </a></li>
                     </ul>
                 </nav>
+            </div>
             <!-- sidenav -->
                 <ul class="sidenav" id="mobile-links">
                     <li><a href="#">Home</a></li>
@@ -48,20 +52,20 @@
         
         <!-- main body  -->
         <main>
-            <section class="section container" >
-                <div class="row">
+            <section class="section container scrollspy" id="home">
+                <div class="row flex">
                     <div class="col s12 l4">
-                        <div class="z-depth-2 card">
+                        <div class="z-depth-2 card ">
                             <div class="card-image">
                                 <img src="images/Hhuhu.jpg" class="responsive-img z-depth-4" alt="" style="margin-top:7px;" >
                             </div>
                         </div>
                     </div>
                     <div class="col s12 l6">
-                        <div class="card horizontal z-depth-2 medium" style="height: 368px;">
+                        <div class="card horizontal z-depth-2 medium" style="height: 100%;">
                             <div class="card-content">
                                 <span><h2 class="indigo-text text-darken-4">Hello!</h2></span>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate sed illo libero provident quae tenetur beatae distinctio iure doloribus quos saepe rerum neque quas, excepturi impedit unde facere velit. Pariatur.</p>
+                                <p>My name is Monit Gupta. Right now, a first year, studying in National Institute Of Technology Karnataka, Surathkal. I'm doing my B.Tech in Chemical Engineering.</p>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non numquam ipsa omnis voluptates repellat eveniet, fugit animi doloribus doloremque facilis nihil corporis molestias deserunt, in quia. Explicabo et unde fuga.</p>
                                 <!-- social media links  -->
                             </div>
@@ -77,7 +81,7 @@
                 </div>
             </div>
             <!-- cards  -->
-            <div class="container" style="margin-top: 50px;">
+            <div class="container scrollspy" id="card" style="margin-top: 50px;">
                 <div class="row">
                     <div class="col s12 l4">
                         <div class="card hoverable">
@@ -126,8 +130,8 @@
                 </div>
             </div>
 
-            <!-- tabs -->
-            <section class="container section">
+            <!-- About ME -->
+            <section class="container section scrollspy" id="about">
                 <div class="row">
                     <div class="col s12 l4 ">
                         <h3 class="indigo-text text-darken-4">About Me!</h3>
@@ -165,7 +169,7 @@
         
         
         <!-- form  -->
-        <section class="section container" id="contact">
+        <section class="section container scrollspy" id="contact">
             <div class="row">
                 <div class="col s12 l5">
                     <h2 class="indigo-text text-darken-4">Get in touch</h2>
@@ -250,6 +254,7 @@
                 $('.parallax').parallax();
                 $('.tabs').tabs();
                 $('.tooltipped').tooltip();
+                $('.scrollspy').scrollSpy();
             })
         </script>
     </body>
