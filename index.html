@@ -21,7 +21,19 @@
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Interships</a></li>
                         <li><a href="#">Projects</a></li>
-                        <li><a href="#" style="margin-right: 40px;">About</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#" class="btn-floating btn-small light-blue darken-4 tooltipped" data-tooltip="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a></li>
+                        <li><a href="#" class="btn-floating btn-small light-blue darken-4 tooltipped" data-tooltip="Github">
+                            <i class="fab fa-github"></i>
+                        </a></li>
+                        <li><a href="#" class="btn-floating btn-small light-blue darken-4 tooltipped" data-tooltip="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a></li>
+                        <li><a href="#" class="btn-floating btn-small light-blue darken-4 tooltipped" data-tooltip="Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a></li>
                     </ul>
                 </nav>
             <!-- sidenav -->
@@ -36,17 +48,23 @@
         
         <!-- main body  -->
         <main>
-            <section class="section container" style="width: 1600px;">
+            <section class="section container" >
                 <div class="row">
                     <div class="col s12 l4">
-                        <img src="images/incave.jpg" class="responsive-img z-depth-5" alt="" >
+                        <div class="card z-depth-4">
+                            <div class="card-image">
+                                <img src="images/incave.jpg" class="responsive-img z-depth-4" alt="" style="margin-top:7px;" >
+                            </div>
+                        </div>
                     </div>
                     <div class="col s12 l6">
-                        <h2 class="indigo-text text-darken-4">Heyo</h2>    
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi fugiat maxime consectetur commodi, fuga numquam, deleniti quae excepturi blanditiis alias iure eum dolore aperiam neque adipisci, ipsa officiis? Ratione?</p>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi fugiat maxime consectetur commodi, fuga numquam, deleniti quae excepturi blanditiis alias iure eum dolore aperiam neque adipisci, ipsa officiis? Ratione?</p>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi fugiat maxime consectetur commodi, fuga numquam, deleniti quae excepturi blanditiis alias iure eum dolore aperiam neque adipisci, ipsa officiis? Ratione?</p>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi fugiat maxime consectetur commodi, fuga numquam, deleniti quae excepturi blanditiis alias iure eum dolore aperiam neque adipisci, ipsa officiis? Ratione?</p>                       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi fugiat maxime consectetur commodi, fuga numquam, deleniti quae excepturi blanditiis alias iure eum dolore aperiam neque adipisci, ipsa officiis? Ratione?</p>
+                        <div class="card horizontal z-depth-4 medium">
+                            <div class="card-content">
+                                <span><h2 class="indigo-text text-darken-4">Hello!</h2></span>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate sed illo libero provident quae tenetur beatae distinctio iure doloribus quos saepe rerum neque quas, excepturi impedit unde facere velit. Pariatur.</p>
+                                <!-- social media links  -->
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -182,6 +200,45 @@
         </main>
         <!-- main body end -->
 
+        <!-- footer  -->
+        <footer class="page-footer grey darken-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 l3">
+                        <h6>Instagram 
+                            <a href="#" class="btn-floating btn-small grey darken-4"style="margin-left: 10px;">
+                            <i class="fab fa-instagram"></i>
+                        </a></h6>
+                       
+                    </div>
+                    <div class="col s12 l3">
+                        <h6>Facebook
+                            <a href="#" class="btn-floating btn-small grey darken-4" style="margin-left: 10px;">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </h6>
+                    </div>
+                    <div class="col s12 l3">
+                        <h6>Twitter
+                            <a href="#" class="btn-floating btn-small grey darken-4" style="margin-left: 10px;">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </h6>
+                    </div>
+                    <div class="col s12 l3">
+                        <h6>Github
+                            <a href="#" class="btn-floating btn-small grey darken-4" style="margin-left: 10px;">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </h6>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright grey darken-4">
+                <div class="container center-align">
+                    &copy; 2020 Monit Gupta
+                </div>
+        </footer>
 
         <!-- scripts -->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
@@ -191,6 +248,7 @@
                 $('.sidenav').sidenav();
                 $('.parallax').parallax();
                 $('.tabs').tabs();
+                $('.tooltipped').tooltip();
             })
         </script>
     </body>
