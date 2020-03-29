@@ -1,3 +1,16 @@
-.intro{
-    height: 400px;
+.intro-container{
+    height: 450px !important;
 }
+
+.intro-content{
+    height: 80% !important;
+}
+
+.rule{
+    border: 1px solid indigo ;
+    width: 65%;
+}
+
+
+
+/* Most of the css is integrated in the html */
